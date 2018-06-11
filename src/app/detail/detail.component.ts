@@ -8,7 +8,7 @@ import {Router, ActivatedRoute, Params} from '@angular/router';
   styleUrls: ['./detail.component.css']
 })
 export class DetailComponent implements OnInit {
-
+//any
   user$:any;
   constructor(private data:DataService,private activatedRoute:ActivatedRoute) {
     this.activatedRoute.params.subscribe(
